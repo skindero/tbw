@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>Trzy Buki Wierzchowisko</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="test">
+    <div class="header">
+        <div class="black-section">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="logo-text"><a href="index.html">TRZY BUKI WIERZCHOWISKO</a></div>
+            </div>
+        </div>
+        <div class="green-section">
+  <ul>
+    <li><a href="aktualnosci.html">Aktualności</a></li>
+    <li><a href="druzyna.html">Drużyny</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+            <div class="sociale">
+            <a href="https://www.facebook.com/profile.php?id=100057081685929&locale=pl_PL" target="_blank"><img src="fb.png"></a>
+            <a href="https://www.instagram.com/trzy_buki_wierzchowisko_/" target="_blank"><img src="ig.png"></a>
+            <a href="https://www.youtube.com/shorts/m9yAa41Dvd0" target="_blank"><img src="yt.png"></a>
+            </div>
+</div>
+    </div></div>
+    
+    <div class="glowny">
+
+    <div class="lewy">
+        <div class="kafelek1">
+        <img src="1.png">
+            
+        </div>
+        <div class="kafelek2">
+       <img src="3.png">
+            
+        </div>
+        <div class="kafelek3">
+        <img src="2.png">
+            
+        </div>
+        <div class="kafelek4">
+        <img src="4.png">
+            
+        </div>
+        <div class="kafelek5">
+        <img src="5.png">
+            
+        </div>
+        <div class="kafelek6">
+        <img src="6.png">
+            
+        </div>
+        
+
+        
+ 
+    </div>
+        
+    <div class="prawy">
+        <div class="napis">
+        <p>KOLEJNE<br>MECZE</p>
+        
+        
+        
+        </div>
+<div class="mecze">
+    <div id="mecz1">
+        <p>&#10132;Kolejka 14 <i class="icon-search"></i></p>
+        <h4 id="k1">KS II Olkusz <span class="wynik">-</span></h4>
+        <h4 id="k2">Trzy Buki Wierzchowisko <span class="wynik">-</span></h4>
+    </div>
+
+    <div class="modal-overlay">
+        <div class="modal-content">
+            Treść Twojego okienka modalnego
+        </div>
+    </div>
+
+    <div id="mecz2">
+        <p>&#10132;Kolejka 13 <i class="icon-search"></i></p>
+        <h4 id="k3">Trzy Buki Wierzchowisko <span class="wynik">-</span></h4>
+        <h4 id="k4">Słowik Olkusz <span class="wynik">-</span></h4>
+    </div>
+
+    <div class="modal-overlay">
+        <div class="modal-content">
+            Treść Twojego okienka modalnego
+        </div>
+    </div>
+          
+        <div id="mecz3">
+          <p>&#10132;Kolejka 12 <i class="icon-search"></i></p>
+        <h4 id="k5">Przemsza II Klucze <span class="wynik">2</span></h4>
+        <h4 id="k6">Trzy Buki Wierzchowisko <span class="wynik">0</span></h4>
+          </div>
+    <div class="modal-overlay">
+        <div class="modal-content">
+            Treść Twojego okienka modalnego
+        </div>
+    </div>
+        <div id="mecz4">
+          <p>&#10132;Kolejka 11 <i class="icon-search"></i></p>
+        <h4 id="k7">Trzy Buki Wierzchowisko <span class="wynik">1</span></h4>
+        <h4 id="k8">Czapla Czaple Małe <span class="wynik">0</span></h4>
+          </div>
+    <div class="modal-overlay">
+        <div class="modal-content">
+            Treść Twojego okienka modalnego
+        </div>
+    </div>
+        <div id="mecz5">
+          <p>&#10132;Kolejka 10 <i class="icon-search"></i></p>
+        <h4 id="k9">Trzy Buki Wierzchowisko <span class="wynik">8</span></h4>
+        <h4 id="k10">Hetman Dłużec <span class="wynik">1</span></h4>
+          </div>
+    <div class="modal-overlay">
+        <div class="modal-content">
+            Treść Twojego okienka modalnego
+        </div>
+    </div>
+        <div id="mecz6">
+         <p>&#10132;Kolejka 9 <i class="icon-search"></i></p>
+        <h4 id="k11">Unia Jaroszowiec <span class="wynik">2</span></h4>
+        <h4 id="k12">Trzy Buki Wierzchowisko <span class="wynik">4</span></h4>
+          </div>
+    <div class="modal-overlay">
+        <div class="modal-content">
+            Treść Twojego okienka modalnego
+        </div>
+    </div>
+          <script>
+    
+    const iconSearches = document.querySelectorAll('.icon-search');
+const modalOverlays = document.querySelectorAll('.modal-overlay');
+
+iconSearches.forEach((iconSearch, index) => {
+    iconSearch.addEventListener('click', function() {
+        modalOverlays[index].style.display = 'flex';
+    });
+});
+
+modalOverlays.forEach(modalOverlay => {
+    modalOverlay.addEventListener('click', function(event) {
+        if (event.target === modalOverlay) {
+            modalOverlay.style.display = 'none';
+        }
+    });
+});
+</script>
+        </div>
+        
+        
+    
+    </div> 
+        <div class="stopka"><p>&copy; 2024 Trzy Buki Wierzchowisko. Wszelkie prawa zastrzeżone.</p></div>
+     </div>
+</body>
+</html>
